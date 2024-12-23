@@ -26,9 +26,10 @@ def book_report(book_path):
     num_of_character = character_counter(book_content)
 
     print(f"--- Begin report of {book_path} ---")
+    print(f"   There are a total of {word_count} words in this book")
     for letter, count in num_of_character.items():
-        print(f"The '{letter}' character was found {count} times")
-    print(f"--- End of report")
+        print(f"    The '{letter}' character was found {count} times")
+    print(f"--- End of report ---")
     return book_report
 
 book_path = "books/frankenstein.txt"
