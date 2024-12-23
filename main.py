@@ -46,7 +46,7 @@ def book_report(book_path):
     print(f"   There are a total of {word_count} words in this book")
     print(f"The most used word is '{most_common_word}', it was used {times_word_used} times")
     for letter, count in num_of_character.items():
-        print(f"    The '{letter}' character was used {count} times")
+        print(f"    The letter '{letter}' was used {count} times")
     print(f"--- End of report ---")
     return book_report
 
